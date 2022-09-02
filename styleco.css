@@ -1,0 +1,157 @@
+
+*{
+    margin: 0; padding: 0;
+}
+header {
+    height: 73px;
+    background-color: rgb(75, 57, 233);
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    height: 84px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px 12px;
+  }
+  
+  ul li {
+    margin: 0px 52px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(77, 119, 156);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 120px;
+    margin: -22px -15px;
+  }
+  
+  .search input {
+    width: 650px;
+    height: 39px;
+    border: radius 5px;
+    margin: 0px 12px;
+  }
+  
+  button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 19px 20px;
+    width: 72px;
+    height: 38px;
+    padding: 0 14px;
+  }
+  
+  .namee {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 25px 40px;
+  }
+  
+  .MP {
+    /* text-align: center; */
+    color: white;
+    font-size: 22px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .MP1 {
+    /* text-align: center; */
+    color: white;
+    font-size: 22px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .MP:hover {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .MP1:hover {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 331px;
+  }
+  
+  ul1 li1 a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 16px;
+  }
+  
+  ul1 li1 a:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  ul1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .container{
+    min-height: calc(100vh - 73px - 70px);
+
+  }
+  .adr{
+    display: flex;
+justify-content: start;
+justify-items: center;
+flex-direction: column;
+margin: 24px 34px;
+padding: 17px;
+  }
+.address{
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+
+}
+.city{
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+
+}
+.num{
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+
+}
+footer {
+    background-color: rgb(57, 85, 233);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}

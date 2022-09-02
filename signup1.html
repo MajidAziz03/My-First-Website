@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0; padding: 0;
+            background-image: url(/logo.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .signup{
+            width: 300px;
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+            background-color: white;
+            padding: 28px;
+            margin: 8% auto 0;
+            text-align: center;
+
+        }
+        .signup h2{
+            color: rgb(89, 89, 204);
+            font-size: 50px;
+
+        }
+        .input-box{
+            border-radius: 35px;
+            width: 283px;
+            height: 18px;
+            margin: 5px 0 ;
+            padding: 10px;
+
+        }
+        Button{
+            background-color: silver;
+            width: 283px;
+            color: black;
+            border-radius: 35px;
+            height: 43px;
+            margin: 5px 0px;
+            padding: 10px;
+            cursor: pointer;
+
+        }
+        .Button-signup{
+            background-color: rgb(80, 80, 211);
+        }
+        .Button-fb{
+            background-color:blue
+        }
+        .Button-google{
+            background-color: rgb(233, 236, 28);
+        }
+        
+        Hr{
+            margin-top: 20px;
+            width: 80%;
+
+
+        }
+        .OR{
+            background-color: white;
+            width: 27px;
+            margin: -19px auto 10px;
+        }
+        .title{
+            background-color: rgb(54, 54, 190);
+            color: antiquewhite;
+            height: 90px;
+            width: 301px;
+            display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+        
+        .title h2{
+            color: aqua;
+            font-size: 37px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="signup">
+        <div class="title"> 
+            <h2> Majid's Pharmacy </h2> </div>
+        <h2>
+            Signup
+        </h2>
+        <form >
+            <input type="text" class="input-box" placeholder=" username">
+            <br>
+            <br>
+            <input type="Password" class="input-box" placeholder=" Password"> 
+            <p> <span> <input type="checkbox" ></span> I agree to the terms and Conditions </p>
+            <button type="Button" class="Button-signup"> signup </button>
+            
+            <hr>
+            <p class="OR"> OR </p>
+            
+            <button type="Button" class="Button-fb"> Login with Facebook</button>
+            <br>
+            <br>
+            <button type="Button" class="Button-google"> Google </button>
+            <br>
+            <br>
+
+            
+            <p> Already have an account <a href="#"> Sign in </a></p>
+
+        </form>
+    </div>
+    
+</body>
+</html>
